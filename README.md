@@ -44,7 +44,7 @@ We can assume that the public transit system is made up of buses and subway/trai
      PUT vehicle/ id
       request body: {vehicle: req.params.id, status: out of service}
 
-![City](https://unsplash.com/photos/yEV5Rx25mYQ)
+![City](./assets/City.png)
 
 ## INTERVIEWER TIPS
 
