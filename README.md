@@ -138,7 +138,7 @@ Use the nouns and verbs to help the candidate with this. The important parts of 
 
 ### DB Schema
 
-- The main thing to talk about here is the many-to-many relationship between vehicles and routes and how the schedule/runs data are not exclusive to either vehciles or routes but are associated with both so that info goes in that thru table.
+- The main thing to talk about here is the many-to-many relationship between vehicles and routes and how the schedule/runs data are not exclusive to either vehicles or routes but are associated with both so that info goes in that thru table.
 - The main associations are:
   - Vehicles and Routes have a many-to-many relationship with each other thru Runs
   - Routes and Stops have a many-to-many relationship with each other through the RouteStops thru table
